@@ -22,7 +22,7 @@ public class GoogleSearchTest {
     }
 
     @Test
-    public void googleSearch() {
+    public void googleSearch() throws InterruptedException {
         driver.get("https://www.google.com");
         System.out.println("Page title is: " + driver.getTitle());
         Thread.sleep(2000);
