@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code from GitHub...'
-                git branch: 'main', 
+                git branch: 'master', 
                     url: 'https://github.com/Sanket089/GoogleTest.git', 
                     credentialsId: '3ab732b9-1099-442c-b68e-a79df6b6b9f0'
             }
