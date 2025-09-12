@@ -25,6 +25,7 @@ public class GoogleSearchTest {
     public void googleSearch() {
         driver.get("https://www.google.com");
         System.out.println("Page title is: " + driver.getTitle());
+        Thread.sleep(2000);
         Assert.assertTrue(driver.getTitle().contains("Google"));
 
         WebElement searchBox = driver.findElement(By.xpath("//textarea[@title='Search']"));
