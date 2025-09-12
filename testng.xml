@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumTestSuite" verbose="1">
+    <test name="GoogleSearchTest">
+        <classes>
+            <class name="ecommerce.ecommerce.GoogleSearchTest"/>
+        </classes>
+    </test>
+</suite>
